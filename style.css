@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(206, 119, 12);
+}
+
+.flexContainer {
+    padding: 0 0 0 50px;
+    background-color: rgb(98, 119, 119);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+}
+
+.flexContainer img {
+    height: 300px;
+    width: 400px;
+    margin: 5px;
+}
+
+.containerConheca {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+}
+
+.containerConheca img {
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+}
+
+.containerConheca p {
+    background-color: antiquewhite;
+    height: 100px;
+    width: 800px;
+    margin: 40px;
+    padding: 50px;
+}
